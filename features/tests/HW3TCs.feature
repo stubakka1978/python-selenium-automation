@@ -1,6 +1,12 @@
 # Created by alder at 9/27/2022
-Feature: # Enter feature name here
-  # Enter feature description here
+Feature: Tests for amazon sign in and cart
 
-  Scenario: # Enter scenario name here
-    # Enter steps here
+  Scenario: User can sign into account
+    Given Open amazon page
+    When Click Returns & Orders
+    Then User is able to sign into account
+
+    Scenario: User can see empty cart
+    Given Open amazon page
+    When Click Cart
+    Then User is able to see cart is empty

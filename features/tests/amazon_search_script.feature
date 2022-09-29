@@ -1,6 +1,12 @@
 # Created by alder at 9/27/2022
-Feature: # Enter feature name here
-  # Enter feature description here
+Feature: Tests for amazon search
 
-  Scenario: # Enter scenario name here
-    # Enter steps here
+  Scenario: User can search for coffee
+    Given Open amazon page
+    When Search for coffee
+    Then Search results for "coffee" are shown
+
+    Scenario: User can search for mug
+    Given Open amazon page
+    When Search for mug
+    Then Search results for "mug" are shown
