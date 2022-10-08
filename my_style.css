@@ -1,0 +1,34 @@
+td{
+    padding: 15px;
+
+}
+
+.body_color {
+    color: white;
+    background-image: url("https://ak.picdn.net/shutterstock/videos/1037177147/thumb/12.jpg?ip=x480");
+}
+
+
+
+input[name="type"]{
+    accent-color: red;
+}
+
+h2{
+    color: cadetblue;
+    font-size: 200%;
+}
+
+h4{
+    color: cadetblue;
+    font-size: 125%;
+}
+.body_font{
+    color: bisque;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.stand_out_color{
+    color: cadetblue;
+    font-size: 125%;
+}
